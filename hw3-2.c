@@ -12,7 +12,7 @@ int main()
                 if (d2 <= s3) car = 1;
                 else car -= 1;
             }
-            else car = 1;
+            else if (d1 < d2 && d2 < d3) car = 3;
         }
         else{
             if (d1 <= s2 || d1 <= s3){
