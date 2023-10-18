@@ -14,6 +14,13 @@ int main()
             }
             else car = 1;
         }
+        else{
+            if (d1 <= s2 || d1 <= s3){
+                if (d2 <= s3) car = 1;
+                else car -= 1;
+            }
+            else car = 1;
+        }
     }
     printf("%d", car);
 }
